@@ -1,0 +1,49 @@
+/* Styles for the cart page container */
+.cart-page {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styles for the cart items */
+.cart-items {
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item span {
+  font-size: 16px;
+}
+
+/* Styles for the total amount */
+.total {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Styles for the checkout button */
+.checkout-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkout-btn:hover {
+  background-color: #0056b3;
+}
