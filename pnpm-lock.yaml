@@ -8,6 +8,7 @@ specifiers:
   '@testing-library/jest-dom': ^5.17.0
   '@testing-library/react': ^13.4.0
   '@testing-library/user-event': ^13.5.0
+  pnpm: ^8.15.3
   react: ^18.2.0
   react-dom: ^18.2.0
   react-router-dom: ^6.22.0
@@ -23,6 +24,7 @@ dependencies:
   '@testing-library/jest-dom': 5.17.0
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
   '@testing-library/user-event': 13.5.0_szfc7t2zqsdonxwckqxkjn2the
+  pnpm: 8.15.3
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.22.0_biqbaboplfbrettd7655fr4n2y
@@ -7744,6 +7746,12 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       find-up: 3.0.0
+    dev: false
+
+  /pnpm/8.15.3:
+    resolution: {integrity: sha512-3YXNbspkF8b3PbMroetHZ/+0y6T1vwcnhGciyStrnlaizCGLEThbvCsh8YoWpn2nes6um2Gg9WoWQ7JeH7amBQ==}
+    engines: {node: '>=16.14'}
+    hasBin: true
     dev: false
 
   /postcss-attribute-case-insensitive/5.0.2_postcss@8.4.35:
